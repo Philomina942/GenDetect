@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# GenDetect datasets
+data/raw/*
+data/processed/*
+
+# Model checkpoints
+*.pth
+*.pt
+*.h5
+
+# VS Code settings
+.vscode/
+git remote -v
